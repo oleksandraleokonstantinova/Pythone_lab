@@ -1,16 +1,6 @@
-# Ignore virtual environments
-venv/
+# Ignore everything
+*
 
-# Byte-compiled / cache files
-__pycache__/
-*.py[cod]
-*.pyo
-
-# VS Code settings
-.vscode/
-
-# Environment variables
-.env
-# OS files
-Thumbs.db
-.DS_Store
+# But don't ignore these files (whitelist)
+!.gitignore
+!test.py
